@@ -1,0 +1,36 @@
+{
+  "logs": [
+
+    {
+        "id": 1,
+        "message": "UI design done",
+        "attention": false,
+        "date": "21/03/2019",
+        "teammate": "Oliver Queen"
+
+    },
+    {
+        "id": 2,
+        "message": "Search-Bar not working",
+        "attention": true,
+        "date": "15/04/2019",
+        "teammate": "Laurel Lance"
+    }
+
+  ],
+
+  "teammates": [
+      {
+          "id": 1,
+          "firstName": "Oliver",
+          "lastName": "Queen",
+          "position": "UI/UX Designer"
+      },
+      {
+          "id": 2,
+          "firstName": "Laurel",
+          "lastName": "Lance",
+          "position": "FrontEnd Developer"         
+      }
+  ]
+}
