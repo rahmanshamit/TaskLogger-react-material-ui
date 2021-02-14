@@ -27,6 +27,7 @@ const Logs = () => {
         <ul className="collection with-header">
             <li className="collection-header">
                 <h4 className="center">Task Logs</h4>
+                <p className="center">*click log to edit</p>
             </li>
             {!loading && logs.length === 0 ? (<p className="center">No task logs...</p>) : (
                 logs.map(log => <LogItem log={log} key={log.id} />)
